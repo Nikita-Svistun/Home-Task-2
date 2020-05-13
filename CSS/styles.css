@@ -1,0 +1,70 @@
+@import "reset.css";
+
+body {
+    background: #8da498;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userCard {
+    max-height: 600px;
+    min-height: 400px;
+    max-width: 250px;
+    min-width: 175px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #f2f2f2;
+    border-radius: 6px;
+}
+
+.userImageContainer {
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+    min-height: 150px;
+    max-width: 250px;
+    min-width: 175px;
+    overflow: hidden;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #6689b7 50%, #f2f2f2 50%);
+}
+
+img {
+    max-height: 200px;
+    min-height: 100px;
+    max-width: 200px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 15px;
+    border: 6px solid #f2f2f2;
+}
+
+.userInfoContainer {
+    padding: 1ex;
+    margin: 1ex;
+}
+
+.userFullName {
+    display: flex;
+    justify-content: center;
+    margin: 1ex;
+    font-weight: bolder;
+    font-size: 21px;
+    color: #6689b7;
+}
+
+.userNickName {
+    display: flex;
+    justify-content: center;
+    margin: 1ex;
+    font-size: 18px;
+    color: #6689b7;
+}
